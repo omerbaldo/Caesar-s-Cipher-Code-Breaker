@@ -1,6 +1,25 @@
 # Caesar-s-Cipher-Code-Breaker
 Fun project where I got to break Caesars Cipher using two different algorithms.
 
+# What is the algorithm for caesars cipher?
+
+The cipher translates each letter in a word independently by “shifting” the
+letter up or down the alphabet by a fixed distance. We assume that we
+are using the English alphabet with 26 letters in their “usual” order, all
+lower case: a, b, c, . . . z. The function ctv (“character-to-value”) maps each
+character to its value, and the function vtc (“value-to-character”) maps each
+value to its corresponding character. For example, ctv(c) = 2 and vtc(25) =
+z.
+
+
+      The encryption function has the following form:
+      Encriptn(x) = vtc((ctv(x) + n) mod 26)
+
+
+
+
+# What are the two algorithms to break caesars cipher?
+
 Algorithm A: brute force code breaker 
 The encode input words are encoded for each possible value of n. For each value, a spell
 checker determines whether the resulting words are words in the English
