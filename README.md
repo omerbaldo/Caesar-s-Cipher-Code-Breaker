@@ -33,8 +33,7 @@ In english, some letteres occur more than others. Knowing the distribution of th
 letters, this method just counts the number of occurrences of each letter in the encoded words. If there are enough words to be statistically relevant, the letter distribution can be used to identify the most common letters in
 English, namely ’e’, ’t’, and ’a’. 
 
-
-To Run:
+# How do you run my code?
 
 Download mz scheme
 Run mz scheme in main directory 
